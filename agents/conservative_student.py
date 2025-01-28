@@ -12,6 +12,6 @@ class ConservativeStudent:
         self.twitter_client.reply_to_tweet(tweet_id, response)
 
     def _generate_response(self):
-        """Generate a conservative answer (private)."""
+        """Generates a conservative answer (private)."""
         ...
         return self.llm_client.generate_text(prompt)
